@@ -13,7 +13,7 @@
 | Blob extraction | ✅ 894 files / 268 MB from `W2017KEU1ARG1` |
 | sha1 pins | ✅ in `proprietary-files.txt` |
 | `veyronltectc-vendor.mk` | ✅ generated, 894 `PRODUCT_COPY_FILES` rules |
-| Blob set matches the phone | ⏳ unknown until the device is dumped (APJ7 ships 6 files ARG1 does not) |
+| Blob set matches the phone | ✅ device confirmed on `W2017KEU1ARG1` (2026-11-15) |
 | LineageOS 18.1 build | ❌ not attempted |
 | Boot / HAL bring-up | ❌ not started |
 | HAL shims (camera / audio / RIL) | ❌ not written |
