@@ -1,10 +1,11 @@
 # Vendor blobs — Samsung W2017 (SM-W2017 / veyronltectc)
 
-> **STATUS: BLOBS COMPLETE — NOT BUILT, NOT TESTED.**
+> **STATUS: BLOBS COMPLETE — LINEAGE 18.1 ENGINEERING BUILD PASSES.**
 > All blobs are extracted from the last official firmware, pinned with sha1 and
-> wired into generated copy rules. No LineageOS 18.1 build has been attempted and
-> nothing has run on hardware yet. The blobs are Android 6.0.1-era and will need
-> shims (camera HAL1, SecRIL, audio) before 18.1 can use them.
+> wired into generated copy rules. The LineageOS 18.1 eng build now completes
+> with this blob set, but nothing has been booted on hardware yet. The blobs are
+> Android 6.0.1-era and will need shims (camera HAL1, SecRIL, audio) before 18.1
+> can use them.
 
 ## Status
 
@@ -14,9 +15,10 @@
 | sha1 pins | ✅ in `proprietary-files.txt` |
 | `veyronltectc-vendor.mk` | ✅ generated, 870 `PRODUCT_COPY_FILES` rules |
 | Blob set matches the phone | ✅ device confirmed on `W2017KEU1ARG1` (2026-11-15) |
-| LineageOS 18.1 build | ❌ not attempted |
+| LineageOS 18.1 build | ✅ eng build passes (2026-11-18) |
 | Boot / HAL bring-up | ❌ not started |
 | HAL shims (camera / audio / RIL) | ❌ not written |
+| Wi-Fi firmware (`bcmdhd_*.bin`, `nvram_net.txt`) | ❌ not in the blob set yet |
 
 ## Source
 
