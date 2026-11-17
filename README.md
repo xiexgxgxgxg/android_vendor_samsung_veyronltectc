@@ -10,9 +10,9 @@
 
 | Item | State |
 |---|---|
-| Blob extraction | ✅ 894 files / 268 MB from `W2017KEU1ARG1` |
+| Blob extraction | ✅ 870 files / ~268 MB from `W2017KEU1ARG1` |
 | sha1 pins | ✅ in `proprietary-files.txt` |
-| `veyronltectc-vendor.mk` | ✅ generated, 894 `PRODUCT_COPY_FILES` rules |
+| `veyronltectc-vendor.mk` | ✅ generated, 870 `PRODUCT_COPY_FILES` rules |
 | Blob set matches the phone | ✅ device confirmed on `W2017KEU1ARG1` (2026-11-15) |
 | LineageOS 18.1 build | ❌ not attempted |
 | Boot / HAL bring-up | ❌ not started |
@@ -26,7 +26,7 @@
 | Build | `MMB29M` / Android 6.0.1 / security patch 2018-06-01 |
 | Fingerprint | `samsung/veyronltectc/veyronltectc:6.0.1/MMB29M/W2017KEU1ARG1:user/release-keys` |
 | Kernel | 3.18.20-9512355, built 2018-07-16 |
-| Files | 894 (`vendor/**`, `lib{,64}/hw` HALs, Samsung/RIL/audio system libs), ~268 MB |
+| Files | 870 (`vendor/**`, `lib{,64}/hw` HALs, Samsung/RIL/audio system libs), ~268 MB |
 
 `proprietary-files.txt` is generated from this image and carries sha1 pins; the
 files under `proprietary/` are the actual blobs. The boot image layout is
