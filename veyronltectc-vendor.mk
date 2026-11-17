@@ -3,7 +3,6 @@
 # Regenerate with setup-makefiles.sh from the device tree after changing the list.
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/hw/audio.a2dp.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.a2dp.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/audio.blea.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.blea.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/audio.playback_record.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.playback_record.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.default.so \
@@ -33,19 +32,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.msm8996.so \
     $(LOCAL_PATH)/proprietary/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/vibrator.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/wbc_hal.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/wbc_hal.default.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudio-resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio-resampler.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudioeffect_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioeffect_jni.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudioflinger.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioflinger.so \
     $(LOCAL_PATH)/proprietary/lib/libaudiohookclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiohookclient.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudiopolicyenginedefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicyenginedefault.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudiopolicymanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicymanager.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudiopolicymanagerdefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicymanagerdefault.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudiopolicyservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicyservice.so \
     $(LOCAL_PATH)/proprietary/lib/libaudioresampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioresampler.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     $(LOCAL_PATH)/proprietary/lib/libaudiosa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiosa.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudiospdif.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiospdif.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudioutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioutils.so \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_interface.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungSoundbooster_plus.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungVoipResampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungVoipResampler.so \
@@ -75,14 +64,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/lib/libsecopenssl_engine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecopenssl_engine.so \
     $(LOCAL_PATH)/proprietary/lib/libsecpkcs11_engine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecpkcs11_engine.so \
-    $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecril-client.so \
     $(LOCAL_PATH)/proprietary/lib/libsecuibc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecuibc.so \
     $(LOCAL_PATH)/proprietary/lib/libsecure_storage.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecure_storage.so \
     $(LOCAL_PATH)/proprietary/lib/libsecure_storage_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecure_storage_jni.so \
     $(LOCAL_PATH)/proprietary/lib/libsensorhub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorhub.so \
     $(LOCAL_PATH)/proprietary/lib/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorlistener.so \
-    $(LOCAL_PATH)/proprietary/lib/libsensorservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorservice.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/audio.a2dp.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.a2dp.default.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/audio.playback_record.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.playback_record.default.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.primary.default.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.r_submix.default.so \
@@ -108,13 +94,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/hw/sensors.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/sensors.msm8996.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/vibrator.default.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/wbc_hal.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/wbc_hal.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/libaudio-resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio-resampler.so \
-    $(LOCAL_PATH)/proprietary/lib64/libaudioeffect_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioeffect_jni.so \
     $(LOCAL_PATH)/proprietary/lib64/libaudiohookclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiohookclient.so \
-    $(LOCAL_PATH)/proprietary/lib64/libaudiopolicyenginedefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiopolicyenginedefault.so \
-    $(LOCAL_PATH)/proprietary/lib64/libaudiopolicymanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiopolicymanager.so \
-    $(LOCAL_PATH)/proprietary/lib64/libaudiopolicymanagerdefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudiopolicymanagerdefault.so \
-    $(LOCAL_PATH)/proprietary/lib64/libaudioutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioutils.so \
     $(LOCAL_PATH)/proprietary/lib64/libdiagmonagent.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiagmonagent.so \
     $(LOCAL_PATH)/proprietary/lib64/libsamsungeffect.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsamsungeffect.so \
     $(LOCAL_PATH)/proprietary/lib64/libsamsungtts.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsamsungtts.so \
@@ -138,14 +118,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/lib64/libsecopenssl_engine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecopenssl_engine.so \
     $(LOCAL_PATH)/proprietary/lib64/libsecpkcs11_engine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecpkcs11_engine.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecril-client.so \
     $(LOCAL_PATH)/proprietary/lib64/libsecsqlite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecsqlite.so \
     $(LOCAL_PATH)/proprietary/lib64/libsecure_storage.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecure_storage.so \
     $(LOCAL_PATH)/proprietary/lib64/libsecure_storage_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecure_storage_jni.so \
     $(LOCAL_PATH)/proprietary/lib64/libsensorhub.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensorhub.so \
     $(LOCAL_PATH)/proprietary/lib64/libsensorhubservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensorhubservice.so \
     $(LOCAL_PATH)/proprietary/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensorlistener.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsensorservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensorservice.so \
     $(LOCAL_PATH)/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     $(LOCAL_PATH)/proprietary/vendor/bin/chamomile_provision:$(TARGET_COPY_OUT_VENDOR)/bin/chamomile_provision \
     $(LOCAL_PATH)/proprietary/vendor/bin/hdcp1prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp1prov \
@@ -644,7 +622,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/mmi_audio.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_audio.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/mmi_battery.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_battery.so \
@@ -871,7 +848,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/mmi_audio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mmi_audio.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/mmi_battery.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mmi_battery.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/mmi_bluetooth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mmi_bluetooth.so \
