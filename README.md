@@ -1,23 +1,39 @@
 # Vendor blobs — Samsung W2017 (SM-W2017 / veyronltectc)
 
-> **STATUS: BLOBS COMPLETE — LINEAGE 18.1 ENGINEERING BUILD PASSES.**
-> All blobs are extracted from the last official firmware, pinned with sha1 and
-> wired into generated copy rules. The LineageOS 18.1 eng build now completes
-> with this blob set, but nothing has been booted on hardware yet. The blobs are
-> Android 6.0.1-era and will need shims (camera HAL1, SecRIL, audio) before 18.1
-> can use them.
+> **STATUS: THE BLOB SET BOOTS THE ROM (2026-11-18).**
+> Most blobs are still extracted from the last official firmware
+> (`W2017KEU1ARG1`, Android 6.0.1) and pinned with sha1. Two parts had to
+> change to make Android 11 boot:
+>
+> * the **Adreno userspace driver** (`vendor/lib*/egl/*`, `libgsl`,
+>   `libadreno_utils`, `libllvm-glnext`, `librs_adreno*`) now comes from a
+>   Xiaomi Note 2 MIUI 11 (Android 8.0) image: the 6.0.1 EGL calls private
+>   gralloc0 entry points and cannot work with the gralloc1 that the A11
+>   display HAL builds, while the Android 8 generation talks gralloc1.
+>   The kgsl ioctl ABI is unchanged between the two (the
+>   `drivers/gpu/msm/kgsl_ioctl.h` diff against the S7 lineage-18.1 kernel is
+>   empty), so the 6.0.1 kgsl driver still drives it;
+> * the **a530 GPU firmware** (`vendor/firmware/a530*`) is added — without it
+>   `request_firmware()` fails with EAGAIN and SurfaceFlinger aborts.
+>
+> The 6.0.1 **SDM display blobs** (`libsdmextension.so`, `libsdm-color.so`,
+> the stock `hwcomposer.msm8996.so`) were **removed**: they are built against
+> the SDM 1.x C++ ABI and crash the Android 11 display HAL.
+> The remaining 6.0.1 blobs (camera HAL1, SecRIL, audio) still need shims.
 
 ## Status
 
 | Item | State |
 |---|---|
-| Blob extraction | ✅ 870 files / ~268 MB from `W2017KEU1ARG1` |
+| Blob extraction | ✅ from `W2017KEU1ARG1` |
 | sha1 pins | ✅ in `proprietary-files.txt` |
-| `veyronltectc-vendor.mk` | ✅ generated, 870 `PRODUCT_COPY_FILES` rules |
+| `veyronltectc-vendor.mk` | ✅ generated copy rules |
 | Blob set matches the phone | ✅ device confirmed on `W2017KEU1ARG1` (2026-11-15) |
 | LineageOS 18.1 build | ✅ eng build passes (2026-11-18) |
-| Boot / HAL bring-up | ❌ not started |
-| HAL shims (camera / audio / RIL) | ❌ not written |
+| Boot / HAL bring-up | ✅ boots to the setup wizard (2026-11-18) |
+| GPU: Adreno driver + `a530*` firmware | ✅ imported (Android 8 generation) |
+| Display: 6.0.1 SDM blobs | ✅ dropped (ABI mismatch with the A11 HAL) |
+| HAL shims (camera / audio / RIL / fingerprint / GNSS) | ❌ not written |
 | Wi-Fi firmware (`bcmdhd_*.bin`, `nvram_net.txt`) | ❌ not in the blob set yet |
 
 ## Source
