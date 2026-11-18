@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gps.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/gralloc.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.msm8996.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/hwcomposer.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hwcomposer.msm8996.so \
     $(LOCAL_PATH)/proprietary/lib/hw/keystore.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/keystore.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/keystore.mdfpp.so \
     $(LOCAL_PATH)/proprietary/lib/hw/lights.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lights.msm8996.so \
@@ -81,7 +80,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gps.default.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.default.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/gralloc.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.msm8996.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/hwcomposer.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/hwcomposer.msm8996.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/keystore.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/keystore.default.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/keystore.mdfpp.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/lights.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lights.msm8996.so \
@@ -142,6 +140,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/audio_output_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_output_policy.conf \
     $(LOCAL_PATH)/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm4358A1_V0056.0103.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A1_V0056.0103.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/a530v1_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pfp.fw \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/a530v1_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pm4.fw \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v2_seq.fw2 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.bin \
     $(LOCAL_PATH)/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_1080p_preview_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_1080p_preview_lc898212xd.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/C12QL_libchromatix_s5k2l1sx_1080p_video_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/C12QL_libchromatix_s5k2l1sx_1080p_video_lc898212xd.so \
@@ -824,10 +830,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscalar.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libsecureuisvc_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureuisvc_jni.so \
