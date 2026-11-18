@@ -159,6 +159,69 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libloc_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_stub.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
+    $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcess.so \
+    $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcessConvertor.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V06002.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SamsungRec_V06002.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_SRC192_ver205.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_SoundBooster_ver700.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundBooster_ver700.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_soundaliveresampler.so \
+    $(LOCAL_PATH)/proprietary/lib/librecordalive.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librecordalive.so \
+    $(LOCAL_PATH)/proprietary/lib/libtinycompress.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinycompress.so \
+    $(LOCAL_PATH)/proprietary/lib/libaudiorev.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiorev.so \
+    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_apsta.bin \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
+    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_apsta.bin_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_apsta.bin_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_ibss.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_ibss.bin \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin \
+    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_ibss.bin_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_ibss.bin_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_mfg.bin \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin \
+    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_mfg.bin_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_mfg.bin_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_sta.bin \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
+    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_sta.bin_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd_sta.bin_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/fstman.ini:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/fstman.ini \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/fstman.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/fstman.ini \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_mfg.txt \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_mfg.txt_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_mfg.txt_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt_b85_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_mfg.txt_b85_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_mfg.txt_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_b85_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_mfg.txt_murata \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt_murata_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_mfg.txt_murata_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt_murata_b85_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_mfg.txt_murata_b85_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_b85_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt_wisol:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_mfg.txt_wisol \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt_wisol_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_mfg.txt_wisol_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt_wisol_b85_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_mfg.txt_wisol_b85_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_b85_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_b85_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_b85_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b85_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_murata \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_murata_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_murata_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt_murata_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_murata_b85_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_murata_b85_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_b85_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_wisol:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_wisol \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_wisol_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_wisol_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_a1 \
+    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_wisol_b85_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_wisol_b85_a1 \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_b85_a1 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
