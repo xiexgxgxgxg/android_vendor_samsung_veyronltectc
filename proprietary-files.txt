@@ -968,3 +968,5 @@ lib/libuniapi.so|d03b1cc40e65698270d35bc5342ac166553076fc
 lib/libsensorlistener.so|e835b32224fe978eca0846999371f9333d7c9438
 lib/libqomx_core.so|b7ffc0ed0012049aaa55d628c56e4e2cdb68116b
 vendor/usr/keylayout/veyronlte_3x4-keypad.kl|072785f5ccc29baa54746156120039d3560be24f
+vendor/bin/mm-qcamera-daemon|0755226d42a02a8c0aa58ed02674251cd4e4a08f
+lib/libmm-qcamera.so|5c39e330397f438c2dc7e846a427d2464c9321eb
