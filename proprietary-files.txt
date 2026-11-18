@@ -870,3 +870,8 @@ vendor/lib64/sensors.ssc.so|57a636a7d7611df35d53f7bfc776ab2b50b61ab2
 vendor/lib64/soundfx/libqcbassboost.so|b8d7751aad75d4b9a4872dac49c1c4bde7d7213b
 vendor/lib64/soundfx/libqcreverb.so|1a96b76a70fafde6ad7f3f25e9f059e20459a7c7
 vendor/lib64/soundfx/libqcvirt.so|410a29c5455fadcac4b92d22fbd80991be1fa38a
+vendor/bin/qseecomd|3a895a68179f07b46e8bcfc50d0289d7a149637a
+vendor/bin/pm-service|e978811b9ec919222adbe7db45872fc1fb7459ca
+vendor/bin/rmt_storage|f03be981914db0e5ff9f11adcf9dca5e67b9caec
+vendor/bin/irsc_util|d1ece0d9620b179cb06fc985f01b378a2657dd97
+vendor/bin/tftp_server|a3a8978df742f30e91ea6398c4be56fc42d68ef2
