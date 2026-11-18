@@ -222,6 +222,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_a1 \
     $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt_wisol_b85_a1:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt_wisol_b85_a1 \
     $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_b85_a1 \
+    $(LOCAL_PATH)/proprietary/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmjpeg_interface.so \
+    $(LOCAL_PATH)/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
+    $(LOCAL_PATH)/proprietary/lib/libuniapi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniapi.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
