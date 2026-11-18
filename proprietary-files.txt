@@ -967,3 +967,4 @@ lib/libuniplugin.so|ce6f718de0f2c5942ed69086c5e14abfccc0a896
 lib/libuniapi.so|d03b1cc40e65698270d35bc5342ac166553076fc
 lib/libsensorlistener.so|e835b32224fe978eca0846999371f9333d7c9438
 lib/libqomx_core.so|b7ffc0ed0012049aaa55d628c56e4e2cdb68116b
+vendor/usr/keylayout/veyronlte_3x4-keypad.kl|072785f5ccc29baa54746156120039d3560be24f

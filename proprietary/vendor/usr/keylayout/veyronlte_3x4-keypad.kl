@@ -1,0 +1,28 @@
+# Samsung W2017 (veyronlte) 3x4 matrix keypad.
+#
+# Matches the linux,keymap in msm8996-sec-veyronlte-ctc-r0*.dtsi
+# (drivers/input/keyboard/samsung-keypad.c reports these Linux key codes):
+
+key 2     KEYCODE_1
+key 3     KEYCODE_2
+key 4     KEYCODE_3
+key 5     KEYCODE_4
+key 6     KEYCODE_5
+key 7     KEYCODE_6
+key 8     KEYCODE_7
+key 9     KEYCODE_8
+key 10    KEYCODE_9
+key 11    KEYCODE_0
+key 231   KEYCODE_CALL
+key 14    KEYCODE_DEL
+key 580   KEYCODE_ASSIST
+key 172   KEYCODE_HOME
+key 353   KEYCODE_ENTER
+key 105   KEYCODE_DPAD_LEFT
+key 106   KEYCODE_DPAD_RIGHT
+key 103   KEYCODE_DPAD_UP
+key 108   KEYCODE_DPAD_DOWN
+key 158   KEYCODE_BACK
+key 254   KEYCODE_APP_SWITCH
+key 522   KEYCODE_STAR
+key 523   KEYCODE_POUND
