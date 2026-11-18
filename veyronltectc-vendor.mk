@@ -229,6 +229,28 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/usr/keylayout/veyronlte_3x4-keypad.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/veyronlte_3x4-keypad.kl \
     $(LOCAL_PATH)/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     $(LOCAL_PATH)/proprietary/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmm-qcamera.so \
+    $(LOCAL_PATH)/proprietary/etc/firmware/msm8996_camera_veyron.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/msm8996_camera_veyron.xml \
+    $(LOCAL_PATH)/proprietary/etc/firmware/C12QL_s5k2l1sx_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/C12QL_s5k2l1sx_chromatix.xml \
+    $(LOCAL_PATH)/proprietary/etc/firmware/C12QS_imx260_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/C12QS_imx260_chromatix.xml \
+    $(LOCAL_PATH)/proprietary/etc/firmware/s5k5e3yx_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/s5k5e3yx_chromatix.xml \
+    $(LOCAL_PATH)/proprietary/etc/firmware/C12QL_Isp0_s5k2l1sx.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/C12QL_Isp0_s5k2l1sx.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/C12QL_Isp1_s5k2l1sx.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/C12QL_Isp1_s5k2l1sx.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/C12QS_Isp0_imx260.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/C12QS_Isp0_imx260.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/C12QS_Isp1_imx260.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/C12QS_Isp1_imx260.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/D12QL_Isp0_s5k2l1sx.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/D12QL_Isp0_s5k2l1sx.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/D12QS_Isp0_imx260.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/D12QS_Isp0_imx260.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/Master0.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/Master0.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/Master1.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/Master1.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cal_data_LSCmaster.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cal_data_LSCmaster.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_10_0.fw \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_1.fw \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_6.fw \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_2_0.fw \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_4_0.fw \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_6_0.fw \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_8_0.fw \
+    $(LOCAL_PATH)/proprietary/etc/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ois_fw_dom.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ois_fw_sec.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
