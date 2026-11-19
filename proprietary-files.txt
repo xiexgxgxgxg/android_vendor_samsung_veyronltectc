@@ -993,3 +993,13 @@ etc/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 etc/firmware/ois_fw_dom.bin|0d9f06c8bea88b147b2225077f8a5d6c4318489b
 etc/firmware/ois_fw_sec.bin|cc84c11b18639298df165889379848341481141a
 etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/lib/hw/sensors.msm8996.so|6c90a4746278e834a356471ba8ca82c190f855ac
+vendor/lib/hw/sensors.qcom.so|6c90a4746278e834a356471ba8ca82c190f855ac
+vendor/lib/hw/sensors.bio.msm8996.so|09052226a8e312a671e5faa5a7c805ca2a245d30
+vendor/lib/hw/sensors.bio.qcom.so|09052226a8e312a671e5faa5a7c805ca2a245d30
+vendor/bin/sensorhubservice|8ccf70fb0be1e1c6f842cd04a4c6c322e3dd7058
+vendor/bin/sensors.qcom|f4f210a9cc3e1179accc4cc8507305aac446918e
+vendor/lib64/libsensorhubservice.so|89013853367d1d7748d27118041d24d7debd1b04
+vendor/lib64/hw/sensors.ssc.so|57a636a7d7611df35d53f7bfc776ab2b50b61ab2
+etc/sensors/sensor_def_qcomdev.conf|a4685f01286ea45a3c13d91dffb57431a27abf2e
+etc/sensors/hals.conf|354b76127b9598d66f858b7857153f2658e272ff
