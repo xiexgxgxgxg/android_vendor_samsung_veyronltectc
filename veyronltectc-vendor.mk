@@ -1004,3 +1004,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so
+
+# Camera 3A tuning libraries required by the mm-camera2 sensor module.
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/C12QL_libTsAccm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/C12QL_libTsAccm.so \
+    $(LOCAL_PATH)/proprietary/lib/C12QL_libTsAe.so:$(TARGET_COPY_OUT_SYSTEM)/lib/C12QL_libTsAe.so \
+    $(LOCAL_PATH)/proprietary/lib/C12QL_libTsAf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/C12QL_libTsAf.so \
+    $(LOCAL_PATH)/proprietary/lib/C12QL_libTsAwb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/C12QL_libTsAwb.so \
+    $(LOCAL_PATH)/proprietary/lib/C12QS_libTsAccm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/C12QS_libTsAccm.so \
+    $(LOCAL_PATH)/proprietary/lib/C12QS_libTsAe.so:$(TARGET_COPY_OUT_SYSTEM)/lib/C12QS_libTsAe.so \
+    $(LOCAL_PATH)/proprietary/lib/C12QS_libTsAf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/C12QS_libTsAf.so \
+    $(LOCAL_PATH)/proprietary/lib/C12QS_libTsAwb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/C12QS_libTsAwb.so \
+    $(LOCAL_PATH)/proprietary/lib/libTsAe.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAe.so \
+    $(LOCAL_PATH)/proprietary/lib/libTsAeFront.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAeFront.so \
+    $(LOCAL_PATH)/proprietary/lib/libTsAf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAf.so \
+    $(LOCAL_PATH)/proprietary/lib/libTsAwb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAwb.so \
+    $(LOCAL_PATH)/proprietary/lib/libTsAwbFront.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAwbFront.so
