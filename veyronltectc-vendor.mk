@@ -251,6 +251,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_8_0.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ois_fw_dom.bin \
     $(LOCAL_PATH)/proprietary/etc/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ois_fw_sec.bin \
+    $(LOCAL_PATH)/proprietary/etc/thermal-engine.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/thermal-engine.conf \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
