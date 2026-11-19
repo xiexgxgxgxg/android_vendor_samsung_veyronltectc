@@ -252,6 +252,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ois_fw_dom.bin \
     $(LOCAL_PATH)/proprietary/etc/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ois_fw_sec.bin \
     $(LOCAL_PATH)/proprietary/etc/thermal-engine.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/thermal-engine.conf \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/sensors.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8996.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/sensors.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.qcom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/sensors.bio.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.bio.msm8996.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/sensors.bio.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.bio.qcom.so \
+    $(LOCAL_PATH)/proprietary/vendor/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
+    $(LOCAL_PATH)/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libsensorhubservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorhubservice.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.ssc.so \
+    $(LOCAL_PATH)/proprietary/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/sensor_def_qcomdev.conf \
+    $(LOCAL_PATH)/proprietary/etc/sensors/hals.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/hals.conf \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
