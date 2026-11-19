@@ -1019,4 +1019,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libTsAeFront.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAeFront.so \
     $(LOCAL_PATH)/proprietary/lib/libTsAf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAf.so \
     $(LOCAL_PATH)/proprietary/lib/libTsAwb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAwb.so \
-    $(LOCAL_PATH)/proprietary/lib/libTsAwbFront.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAwbFront.so
+    $(LOCAL_PATH)/proprietary/lib/libTsAwbFront.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAwbFront.so \
+    $(LOCAL_PATH)/proprietary/lib/libTsAccm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAccm.so \
+    $(LOCAL_PATH)/proprietary/lib/libTsAccmFront.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAccmFront.so

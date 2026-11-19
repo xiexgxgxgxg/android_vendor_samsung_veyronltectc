@@ -1016,3 +1016,5 @@ lib/libTsAeFront.so|4b64456d357a3d4056a273d27e2164f65eca1b3f
 lib/libTsAf.so|73f0abcf0e885fc11f4abee10dc3acd16a88347c
 lib/libTsAwb.so|ecbecbcb904203e84fcbf7e56e071516e77db07d
 lib/libTsAwbFront.so|97768b74ebb32692b8db8dade56a4f2b9df7ec03
+lib/libTsAccm.so|7c6feddf2b47d740d2c1aa78aaf72aa6a2b928c9
+lib/libTsAccmFront.so|ef7481715f932acf1980a1607a1ccb2c16f1ab20
