@@ -433,6 +433,7 @@ vendor/lib/libizat_core.so|eaa7447bb7685ac0de3a1f8e4b3dfe79d6f05eba
 vendor/lib/libjpegdhw.so|858d03c13cb5d05fc0c0ccfc49fe42d443832e8a
 vendor/lib/libjpegdmahw.so|71d9aacb168585a163a7d4d71ca9ff2e93fc32bf
 vendor/lib/libjpegehw.so|af458526efc8f6dbc38ccb49861475cb40be2e11
+vendor/lib/libloc_api_v02.so|5fe5c7e92009e2ebd9e1cdb031ded30012d5b968
 vendor/lib/liblbs_core.so|ca59bd030d3deac35873f29b89dcb92aeb0895c6
 vendor/lib/liblistensoundmodel2.so|b77a37e611ba922dc8a3db95ac06d32bcf1fd692
 vendor/lib/libllvm-glnext.so|f717f71815ff0c73e8f3f02785b2a8e47e3cccad
@@ -889,6 +890,7 @@ vendor/lib64/libbauthtzcommon.so|1f813edfe94477fa9bae9be7fb66aa7909462f54
 vendor/lib64/libegis_fp_normal_sensor_test.so|6c37eeb8a6acc604bc6a465854c1d79e67533fc6
 vendor/lib64/libsynaFpSensorTestNwd.so|fed6d2876df7ffdca1cc7e39702cfc88286cbab2
 vendor/lib64/libgps.utils.so|06fb77e17b471994eec93970f0464254e49bc020
+vendor/lib64/libloc_api_v02.so|6a87b39989aec2e684aef05a5c2a9462ebd14620
 vendor/lib64/libloc_core.so|5730a3d9c0ce219587f5bbe59ac32f9057eea3fa
 vendor/lib64/libloc_eng.so|83edd6ee3a5cb719d90a93f832837a21a910d445
 vendor/lib64/hw/gps.qcom.so|ed3b087ca83f6ce32f1fee866d2e0a0b4aea7b8d

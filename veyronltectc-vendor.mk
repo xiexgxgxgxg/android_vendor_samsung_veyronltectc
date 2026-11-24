@@ -152,6 +152,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm4358A1_V0056.0103.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A1_V0056.0103.hcd \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libloc_eng.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_eng.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gps.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.qcom.so \
@@ -573,6 +574,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblbs_core.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
