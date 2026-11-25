@@ -1062,3 +1062,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
     $(LOCAL_PATH)/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC192_ver205.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungvad.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungvad.so
+
+# The 6.0.1 audio HAL links against the 6.0.1 libtinycompress, but that
+# SONAME collides with the (unbuilt) AOSP module target in /vendor/lib.  Ship
+# the 6.0.1 library under a private name and point the HAL at it; the
+# original /system/lib copy stays for the system-side consumers.
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/libtc6.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtc6.so \
+    $(LOCAL_PATH)/proprietary/lib/libtc6.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtc6.so
