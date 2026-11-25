@@ -1024,3 +1024,41 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libTsAwbFront.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAwbFront.so \
     $(LOCAL_PATH)/proprietary/lib/libTsAccm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAccm.so \
     $(LOCAL_PATH)/proprietary/lib/libTsAccmFront.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAccmFront.so
+
+# RIL / telephony blobs that used to be pushed by hand: the vendor RIL needs
+# the QMUX and data daemons, a 2.x protobuf next to the stock libsec-ril, and
+# the netmgr QMI configuration files.  Keep them in the build so a clean flash
+# has a working radio stack.
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libprotobuf-cpp-full-2x.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-2x.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecril-client.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libomission_avoidance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libomission_avoidance.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libfactoryutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfactoryutil.so \
+    $(LOCAL_PATH)/proprietary/bin/smdexe:$(TARGET_COPY_OUT_SYSTEM)/bin/smdexe \
+    $(LOCAL_PATH)/proprietary/bin/ddexe:$(TARGET_COPY_OUT_SYSTEM)/bin/ddexe \
+    $(LOCAL_PATH)/proprietary/bin/connfwexe:$(TARGET_COPY_OUT_SYSTEM)/bin/connfwexe \
+    $(LOCAL_PATH)/proprietary/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/dsi_config.xml \
+    $(LOCAL_PATH)/proprietary/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/netmgr_config.xml \
+    $(LOCAL_PATH)/proprietary/etc/data/qmi_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/qmi_config.xml
+
+# 32-bit legacy audio HAL and the libraries it links against.  The audio HAL
+# service is a vendor process (32-bit), so it cannot resolve these from
+# /system/lib; they have to be in /vendor/lib.  (The same blobs are also
+# installed to /system/lib for the system-side users above.)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/hw/audio.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8996.so \
+    $(LOCAL_PATH)/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so \
+    $(LOCAL_PATH)/proprietary/lib/libpower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower.so \
+    $(LOCAL_PATH)/proprietary/lib/libexpat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexpat.so \
+    $(LOCAL_PATH)/proprietary/lib/libaudiorev.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiorev.so \
+    $(LOCAL_PATH)/proprietary/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
+    $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcess.so \
+    $(LOCAL_PATH)/proprietary/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
+    $(LOCAL_PATH)/proprietary/lib/libsamsungVoipResampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungVoipResampler.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V06002.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_V06002.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC192_ver205.so \
+    $(LOCAL_PATH)/proprietary/lib/libsamsungvad.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungvad.so
